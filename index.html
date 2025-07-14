@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EventsManagement</title>
+  <link rel="stylesheet" href="./src/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <!-- Contenedor general de la app (solo se muestra si hay login) -->
+  <div id="app">
+    <aside>
+        
+      <h1>Events</h1>
+      <img src="imgs/csgo.jpeg" alt="user" />
+      <!-- <p id="user-info"></p> -->
+
+      <nav>
+        <ul>
+            <li id="visitor-enrollment">
+                <a href="/enrollments" id="enrollments-btn" 23data-link><p>🏷️ Enrollments</p></a>
+            </li>
+            <li>
+                <a href="/events" id="events-btn" data-link><p>🎓 Events</p></a>
+            </li>
+        </ul>
+        
+      </nav>
+
+      <a href="/" data-link><p>log out ⍈</p></a>
+    </aside>
+
+    <main id="content"></main>
+  </div>
+
+  <!-- Contenedor para el login (solo visible si no hay login) -->
+  <div id="login-content"></div>
+</body>
+    <script type="module" src="./src/js/script.js"></script>
+</html>
