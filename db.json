@@ -1,26 +1,55 @@
 {
-    "events" : [
-        {
-            "name" : "Karthi",
-            "description" : "waaaaaa",
-            "capacity" : 12,
-            "date" : "08-Dec,2021"
-        }
-    ],
-    "users" : [
-        {
-            "id": "265",
-            "fullName": "pedro",
-            "email": "pedrito@email",
-            "password": "12345",
-            "role": "admin"
-        },
-        {
-            "id": "123",
-            "fullName": "Mano",
-            "email": "a@a",
-            "password": "123",
-            "role": "visitor"
-        }
-    ]
+  "events": [
+    {
+      "name": "Karthi",
+      "description": "waaaaaa",
+      "capacity": "12",
+      "date": "2025-07-02",
+      "id": "12"
+    },
+    {
+      "name": "Karthii9",
+      "description": "Solo la real",
+      "capacity": "12",
+      "date": "2025-07-14",
+      "id": "1234"
+    },
+    {
+      "name": "Karthii",
+      "description": "waaaaaa",
+      "capacity": "12",
+      "date": "2025-07-25",
+      "id": "12345"
+    },
+    {
+      "name": "Karthii",
+      "description": "waaaaaa",
+      "capacity": "12",
+      "date": "2025-07-16",
+      "id": "123432"
+    },
+    {
+      "id": "0514",
+      "name": "Javier Na",
+      "description": "EL MEJOR EVENTO 123",
+      "date": "2016-12-17",
+      "capacity": "90"
+    }
+  ],
+  "users": [
+    {
+      "id": "265",
+      "fullName": "pedro",
+      "email": "pedrito@email",
+      "password": "12345",
+      "role": "admin"
+    },
+    {
+      "id": "123",
+      "fullName": "Mano",
+      "email": "a@a",
+      "password": "123",
+      "role": "visitor"
+    }
+  ]
 }
