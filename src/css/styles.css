@@ -9,7 +9,7 @@
 a {
     list-style: none;
 }
-
+/* titulo principal */
 h1 {
   font-size: 3rem;
   color: var(--garchomp-yellow);
@@ -18,6 +18,7 @@ h1 {
   text-align: center;
 }
 
+/*  */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
@@ -26,6 +27,8 @@ body {
   align-items: center;
 }
 
+
+/* aside que se mantiene fijo y su nav con sus links*/
 aside {
   width: 220px;
   min-height: 100vh;
@@ -65,7 +68,7 @@ aside nav a:hover {
   transform: scale(5.09);
 }
 
-
+/* modificaciones del conetenido traido de los otros modulos */
 main#content {
     margin-top: 2vh;
     width: calc(100% - 240px);
@@ -86,6 +89,7 @@ main#content {
     color: aliceblue;
 } 
 
+/* edicion para la lista general de los eventos el contenedor */
 ul#event-list {
   width: 100%;
   list-style: none;
@@ -93,6 +97,7 @@ ul#event-list {
   margin-top: 20px;
 }
 
+/* encabezado y columnas de los eventos */
 .event-header,
 .event-row {
   display: flex;
@@ -102,6 +107,7 @@ ul#event-list {
   padding: 12px 16px;
   text-align: center;
 }
+
 
 .event-header {
   background-color: var(--garchomp-red);
