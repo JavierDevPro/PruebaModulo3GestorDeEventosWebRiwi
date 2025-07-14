@@ -5,7 +5,7 @@ Este es un programa que ayuda a la gestion de eventos rapidos y sencillo
 ## Requisitos
 para la ejecucion de este programa se tiene que contar primero con json-server asi como con vite para ello ejecutaremos la siguiente linea de comandos:
 - - 1. npm install -g json-server
-- - 2. json-server db.json
+- - 2. json-server db.json --port 3001 (puesto que esta configurado para este puerto)
 - - abrir otra terminal y ejecutar:
 - - 1. npm  run dev
 - - si no funciona esto ultimo ejecuta:
